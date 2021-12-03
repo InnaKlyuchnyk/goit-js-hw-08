@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.gallery-card {
+  width: 274px;
+  height: 439px;
+}
+
+.film-description {
+  /* height: 41px; */
+  padding: 5px;
+  padding-top: 10px;
+}
+.film-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.film-info {
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+
+  color: #ff6b08;
+}
+.genres {
+  margin-right: 8px;
+}
